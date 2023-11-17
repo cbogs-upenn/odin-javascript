@@ -9,8 +9,30 @@
     // Your JavaScript goes here!
     'use strict';
 
+    let input = prompt("Who's there:", "");
 
+    if (!input) {
+        alert("Canceled");
+    }
+    
+    if (input != "Admin") {
+        alert("I don't know you");
+    }
+    else {
+        let password = prompt("Password?", "");
+    
 
+    if (!password) {
+        alert("Canceled");
+    }
+
+    if (password != "TheMaster"){
+        alert("Wrong password");
+    }
+    else {
+        alert("Welcome!")
+    }
+}
   </script>
 </body>
 </html>
