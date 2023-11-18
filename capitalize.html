@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    'use strict';
+
+    function capitalize(input) {
+      let firstLetter = input.slice(0,1).toUpperCase();
+      let remainder = input.slice(1, input.length).toLowerCase();
+
+      let newString = firstLetter + remainder;
+
+      return newString;
+    }
+
+    
+
+    console.log(capitalize("dis be a string yo"));
+
+  </script>
+</body>
+</html>
